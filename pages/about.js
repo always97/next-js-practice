@@ -1,10 +1,13 @@
-import NavBar from '../components/NavBar';
+import Head from 'next/head';
+import Seo from '../components/Seo';
 
 const Potato = () => {
-  return <>
-        
-        <h1>About</h1>
-    </>;
+  return (
+    <>
+      <Seo title="About"/>  
+      <h1>About</h1>
+    </>
+  )
 }
 
 export default Potato;
